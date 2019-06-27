@@ -17,6 +17,13 @@ print (FV / (1+(i/100)) ** 1)
 print (((90000 / 60000) ** (1/24) - 1) * 100)
 #Ex: A taxa desta operação é de 1.7037% ao mês
 
+# Cálculo do número de períodos de uma operação.
+#Onde: FV=150, PV=100, i=4.56% a.m.
+def nn():
+    import math
+    print (math.log(150/100) / math.log(1+(4.56/100)))
+nn()
+
 
 # ===========================================
 
