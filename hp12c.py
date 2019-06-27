@@ -1,3 +1,13 @@
+# Esse é meu primeiro artigo no formato de comentários
+# em um script. Sei que não é bonito mas é extremamente
+# "mão na massa" Aqui você verá como usar o Python como
+# uma calculadora financeira com trechos de código
+# funcionais cmo exemplo. Espero que gostem
+# Visitem https://github.com/carloseahenriques/pythontips
+# onde disponibilizo diversas "colas rápidas" em Python
+# Estarei fazendo apeends nesse artigo constantemente
+
+
 # Juros compostos:
 # Cálculo de FV
 # Taxa em % no exemplo é 50%
