@@ -13,6 +13,11 @@ print (100 * ((1+(i/100)) ** n))
 # Cálculo do PV (valor presente)
 print (FV / (1+(i/100)) ** 1)
 
+# Cálculo da taxa ao período
+print (((90000 / 60000) ** (1/24) - 1) * 100)
+#Ex: A taxa desta operação é de 1.7037% ao mês
+
+
 # ===========================================
 
 # Em matemática financeira usamos muito a potenciação e radicição
