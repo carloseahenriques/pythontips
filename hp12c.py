@@ -1,13 +1,17 @@
 # Juros compostos:
 # Cálculo de FV
-
 # Taxa em % no exemplo é 50%
 i=50
 
 # Número de períodos
 n=1
 
+# Valor final
+FV=150
 print (100 * ((1+(i/100)) ** n))
+
+# Cálculo do PV (valor presente)
+print (FV / (1+(50/100)) ** 1)
 
 # ===========================================
 
