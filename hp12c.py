@@ -23,7 +23,6 @@ print (100 * ((1+(i/100)) ** n))
 # Cálculo do PV (valor presente)
 print (FV / (1+(i/100)) ** 1)
 
-# Cálculo da taxa ao período
 print (((90000 / 60000) ** (1/24) - 1) * 100)
 #Ex: A taxa desta operação é de 1.7037% ao mês
 
@@ -104,5 +103,7 @@ periods()
 
 # Agora vamos dar outro exemplo, você quer comprar uma moto velha para ir trabalhar visto que o transporte
 # público é uma merda mas você só pode arcar com uma prestação de no máximo R$ 500,00 por mês e você deseja
-# saber qual a taxa que você ira pagar.
+# saber qual a taxa que você ira pagar. Você sabe que a motocicleta custa a vista R$ 7.000,00 e que serão 24
+# parcelas.
 
+print ((((500*24)/7000) ** (1/24) - 1) * 100)
