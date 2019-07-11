@@ -1,0 +1,359 @@
+{
+  "uuid": "",
+  "data_type": "alpr_results",
+  "epoch_time": 1562326337893,
+  "processing_time": {
+    "total": 789.1979999985779,
+    "plates": 280.2259521484375,
+    "vehicles": 456.89299999867217
+  },
+  "img_height": 702,
+  "img_width": 1050,
+  "results": [
+    {
+      "plate": "QRE4H10",
+      "confidence": 94.6703872680664,
+      "region_confidence": 99,
+      "vehicle_region": {
+        "y": 0,
+        "x": 391,
+        "height": 592,
+        "width": 592
+      },
+      "region": "br-br",
+      "plate_index": 0,
+      "processing_time_ms": 38.421241760253906,
+      "candidates": [
+        {
+          "matches_template": 1,
+          "plate": "QRE4H10",
+          "confidence": 94.6703872680664
+        },
+        {
+          "matches_template": 0,
+          "plate": "QREH10",
+          "confidence": 81.39286041259766
+        },
+        {
+          "matches_template": 0,
+          "plate": "QRE410",
+          "confidence": 81.25086975097656
+        },
+        {
+          "matches_template": 0,
+          "plate": "QRE4H1",
+          "confidence": 81.25078582763672
+        },
+        {
+          "matches_template": 1,
+          "plate": "QRE6H10",
+          "confidence": 81.11421203613281
+        },
+        {
+          "matches_template": 1,
+          "plate": "QRE3H10",
+          "confidence": 81.11304473876953
+        },
+        {
+          "matches_template": 1,
+          "plate": "QRE4H11",
+          "confidence": 81.1114273071289
+        },
+        {
+          "matches_template": 1,
+          "plate": "QRE4B10",
+          "confidence": 81.11125183105469
+        },
+        {
+          "matches_template": 0,
+          "plate": "QRE10",
+          "confidence": 67.97334289550781
+        },
+        {
+          "matches_template": 0,
+          "plate": "QREH1",
+          "confidence": 67.97325897216797
+        }
+      ],
+      "coordinates": [
+        {
+          "y": 338,
+          "x": 603
+        },
+        {
+          "y": 338,
+          "x": 772
+        },
+        {
+          "y": 397,
+          "x": 772
+        },
+        {
+          "y": 397,
+          "x": 603
+        }
+      ],
+      "vehicle": {
+        "orientation": [
+          {
+            "confidence": 98.96012115478516,
+            "name": "180"
+          },
+          {
+            "confidence": 0.9286389946937561,
+            "name": "135"
+          },
+          {
+            "confidence": 0.1109803095459938,
+            "name": "225"
+          },
+          {
+            "confidence": 0.00010001818736782297,
+            "name": "270"
+          },
+          {
+            "confidence": 4.815208740183152e-05,
+            "name": "0"
+          },
+          {
+            "confidence": 3.456902413745411e-05,
+            "name": "45"
+          },
+          {
+            "confidence": 3.190037023159675e-05,
+            "name": "missing"
+          },
+          {
+            "confidence": 2.0788793335668743e-05,
+            "name": "90"
+          },
+          {
+            "confidence": 4.388708930491703e-06,
+            "name": "315"
+          }
+        ],
+        "color": [
+          {
+            "confidence": 99.96794128417969,
+            "name": "white"
+          },
+          {
+            "confidence": 0.028948232531547546,
+            "name": "silver-gray"
+          },
+          {
+            "confidence": 0.002776337554678321,
+            "name": "gold-beige"
+          },
+          {
+            "confidence": 0.00015375814109575003,
+            "name": "blue"
+          },
+          {
+            "confidence": 0.00010479745833436027,
+            "name": "yellow"
+          },
+          {
+            "confidence": 4.76248751510866e-05,
+            "name": "red"
+          },
+          {
+            "confidence": 1.167705613625003e-05,
+            "name": "black"
+          },
+          {
+            "confidence": 1.0096055120811798e-05,
+            "name": "green"
+          },
+          {
+            "confidence": 2.3774427972966805e-06,
+            "name": "pink"
+          },
+          {
+            "confidence": 1.581330820954463e-06,
+            "name": "purple"
+          }
+        ],
+        "make": [
+          {
+            "confidence": 99.9544677734375,
+            "name": "toyota"
+          },
+          {
+            "confidence": 0.012092703022062778,
+            "name": "lexus"
+          },
+          {
+            "confidence": 0.008006329648196697,
+            "name": "scion"
+          },
+          {
+            "confidence": 0.007500506937503815,
+            "name": "volkswagen"
+          },
+          {
+            "confidence": 0.002574262674897909,
+            "name": "mazda"
+          },
+          {
+            "confidence": 0.0023861704394221306,
+            "name": "kia"
+          },
+          {
+            "confidence": 0.0022964784875512123,
+            "name": "chevrolet"
+          },
+          {
+            "confidence": 0.0017052736366167665,
+            "name": "nissan"
+          },
+          {
+            "confidence": 0.0014421601081267,
+            "name": "hyundai"
+          },
+          {
+            "confidence": 0.001154347788542509,
+            "name": "jac"
+          }
+        ],
+        "body_type": [
+          {
+            "confidence": 99.19033813476562,
+            "name": "sedan-standard"
+          },
+          {
+            "confidence": 0.743595540523529,
+            "name": "sedan-compact"
+          },
+          {
+            "confidence": 0.03413781896233559,
+            "name": "sedan-wagon"
+          },
+          {
+            "confidence": 0.02535593882203102,
+            "name": "sedan-sports"
+          },
+          {
+            "confidence": 0.005235294345766306,
+            "name": "van-mini"
+          },
+          {
+            "confidence": 0.0004707250918727368,
+            "name": "motorcycle"
+          },
+          {
+            "confidence": 0.0002788347192108631,
+            "name": "tractor-trailer"
+          },
+          {
+            "confidence": 0.00022924577933736145,
+            "name": "sedan-convertible"
+          },
+          {
+            "confidence": 0.00015156931476667523,
+            "name": "suv-crossover"
+          },
+          {
+            "confidence": 7.18433948350139e-05,
+            "name": "antique"
+          }
+        ],
+        "year": [
+          {
+            "confidence": 76.1477279663086,
+            "name": "2015-2019"
+          },
+          {
+            "confidence": 23.846939086914062,
+            "name": "2010-2014"
+          },
+          {
+            "confidence": 0.005294207017868757,
+            "name": "2005-2009"
+          },
+          {
+            "confidence": 1.3750283869740088e-05,
+            "name": "1980-1984"
+          },
+          {
+            "confidence": 1.3423639757093042e-05,
+            "name": "1990-1994"
+          },
+          {
+            "confidence": 6.091512204875471e-06,
+            "name": "1995-1999"
+          },
+          {
+            "confidence": 5.406701802712632e-06,
+            "name": "2000-2004"
+          },
+          {
+            "confidence": 1.6726419289625483e-06,
+            "name": "1985-1989"
+          },
+          {
+            "confidence": 1.0075682439492084e-06,
+            "name": "missing"
+          }
+        ],
+        "make_model": [
+          {
+            "confidence": 99.49464416503906,
+            "name": "toyota_corolla"
+          },
+          {
+            "confidence": 0.26177555322647095,
+            "name": "toyota_aurion"
+          },
+          {
+            "confidence": 0.05982455238699913,
+            "name": "toyota_avalon"
+          },
+          {
+            "confidence": 0.035971954464912415,
+            "name": "toyota_le"
+          },
+          {
+            "confidence": 0.03576091304421425,
+            "name": "toyota_camry"
+          },
+          {
+            "confidence": 0.023950152099132538,
+            "name": "toyota_avensis"
+          },
+          {
+            "confidence": 0.020846130326390266,
+            "name": "toyota_corolla-altis"
+          },
+          {
+            "confidence": 0.009786909446120262,
+            "name": "hyundai_hb20s"
+          },
+          {
+            "confidence": 0.009592708200216293,
+            "name": "chevrolet_cruze"
+          },
+          {
+            "confidence": 0.00705366488546133,
+            "name": "toyota_etios"
+          }
+        ]
+      },
+      "matches_template": 1,
+      "requested_topn": 10
+    }
+  ],
+  "credits_monthly_used": 2,
+  "version": 2,
+  "credits_monthly_total": 1000,
+  "error": false,
+  "regions_of_interest": [
+    {
+      "y": 0,
+      "x": 0,
+      "height": 702,
+      "width": 1050
+    }
+  ],
+  "credit_cost": 1
+}
